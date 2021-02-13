@@ -1,0 +1,18 @@
+# docker-compose.yml
+version: "3.4"
+
+services:
+  web: 
+    build: .
+    ports:
+      - "4200:4200"
+    volumes:
+      - "/app/node_modules"
+      - ".:/app"
+
+    networks:
+      - custom_network
+  
+
+networks:
+  custom_network:
