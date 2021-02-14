@@ -4,9 +4,11 @@ this template allows you to create a dockerized angular project ready for develo
 
 ## Instructions  
 
-1 - clone project in your desired local folder:
+1 - clone project in your desired local folder and remove o rename README file for avoid conflict:
 ```
-git clone https://github.com/xAdrianCx/angularDockerizedTemplate.git  
+git clone https://github.com/xAdrianCx/angularDockerizedTemplate.git
+cd angularDockerizedTemplate
+rm README.md
 ```
 
 2 - navigate into initialize folder and deploy project
